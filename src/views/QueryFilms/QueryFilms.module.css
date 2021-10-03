@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.item {
+  list-style: none;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color:blue;
+}
+ 
